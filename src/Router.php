@@ -4,8 +4,8 @@ namespace App;
 
 class Router
 {
-    public function index()
+    public function welcome()
     {
-        echo 'Router';
+        echo 'Welcome';
     }
 }
