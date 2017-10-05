@@ -6,7 +6,10 @@
             "email": "marcelofabiano@hotmail.com.br"
         }
     ],
-    "require": {},
+    "require": {
+        "squizlabs/php_codesniffer": "^3.1",
+        "phpunit/phpunit": "^6.3"
+    },
     "autoload": {
         "psr-4": {
             "App\\": "src"
