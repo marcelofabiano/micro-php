@@ -1,8 +1,6 @@
 <?php
 
-require __DIR__.'/../vendor/autoload.php';
+require __DIR__.'/../bootstrap/autoload.php';
 
-use App\Router;
-
-$router = new Router();
+$router = new App\Router();
 $router->index();
