@@ -4,8 +4,6 @@
         <exclude name="Generic.Files.LineLength"/>
         <exclude name="PSR1.Classes.ClassDeclaration"/>
     </rule>
-    <exclude-pattern>bootstrap/</exclude-pattern>
     <exclude-pattern>node_modules/</exclude-pattern>
-    <exclude-pattern>public/</exclude-pattern>
     <exclude-pattern>vendor/</exclude-pattern>
 </ruleset>
