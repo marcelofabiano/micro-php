@@ -4,7 +4,10 @@
 require __DIR__.'/../vendor/autoload.php';
 
 # dotenv autoload
-require __DIR__ . '/environment/autoload.php';
+$basePath = __DIR__ . '/../';
+
+$dotenv = new \Dotenv\Dotenv($basePath);
+$dotenv->load();
 
 # configs
 $autoloads['config'] = [
