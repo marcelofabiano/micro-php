@@ -3,7 +3,7 @@
 return [
     'mysql' => [
         'host'=> getenv('DB_HOST', 'localhost'),
-        'database' => getenv('DB_DATABASE'),
+        'dbname' => getenv('DB_NAME'),
         'username' => getenv('DB_USERNAME'),
         'password' => getenv('DB_PASSWORD'),
     ]
